@@ -1,26 +1,22 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+html {
+  scroll-behavior: smooth;
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+/* Custom utility classes */
+.section-heading {
+  @apply text-3xl md:text-4xl font-semibold tracking-tight mb-8;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+.card {
+  @apply bg-slate-900 border border-slate-800 rounded-2xl p-6 transition-all hover:border-slate-700 hover:shadow-xl;
 }
 
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+.timeline-item {
+  @apply relative pl-8 border-l border-slate-700;
+}
+
+.timeline-dot {
+  @apply absolute -left-[9px] top-2 w-4 h-4 bg-sky-500 rounded-full border-4 border-slate-950;
 }
