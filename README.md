@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Humza Jameel | Personal Portfolio 🌐
 
-## Getting Started
+Welcome to the repository for my personal portfolio website. This project showcases my journey, featured engineering projects, and technical expertise as an AI & Full Stack Engineer.
 
-First, run the development server:
+🚀 **Live Demo:** [muhammadhumza.com](https://www.muhammadhumza.com/)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 💡 About the Project
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+This portfolio is designed to be fast, responsive, and content-first. It acts as a central hub for my work, highlighting my transition from full-stack development to distributed AI architectures, RAG pipelines, and agentic workflows.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### Key Portfolio Highlights Showcased:
 
-## Learn More
+- **DB Tight-Transfer Risk Predictor:** An end-to-end ML pipeline predicting connection risks across Berlin rail hubs.
+- **Agentic Voice Assistant:** A real-time assistant orchestrating complex tool-calling workflows.
+- **MidiNet GAN:** Symbolic music generation running PyTorch GPU experiments.
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Architecture & Tech Stack
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Frontend & UI
 
-## Deploy on Vercel
+- **Framework:** Next.js 15 (App Router) + TypeScript
+- **Styling:** Tailwind CSS (Responsive, dark-mode first design)
+- **Animations:** Framer Motion (Smooth, non-intrusive transitions)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Backend & AI Integrations (Showcased Projects)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Python Stack:** FastAPI, AsyncIO, LangChain, LangGraph
+- **Machine Learning:** PyTorch, XGBoost, MLflow, Scikit-Learn
+- **Data & Databases:** Vector Search, SQL, Redis, MongoDB
+
+### Infrastructure & Deployment
+
+- **Hosting:** Vercel (Production deployment & edge caching)
+- **CI/CD:** Automatic branch deployments via GitHub Actions
+
+---
+
+## 📦 Local Development
+
+Want to run this portfolio locally? Follow these simple steps:
+
+1. **Clone the repository:**
+   ```bash
+   git clone [https://github.com/humzajameel/portfolio.git](https://github.com/humzajameel/portfolio.git)
+   cd portfolio
+   ```

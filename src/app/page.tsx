@@ -3,7 +3,6 @@
 import React from "react";
 import {
   Mail,
-  Phone,
   MapPin,
   Download,
   Code2,
@@ -203,7 +202,7 @@ export default function Portfolio() {
               </svg>
             </a>
             <a
-              href="/Muhammad_Humza_Resume.pdf"
+              href="/Humza_Jameel_Full_Stack_AI_Engineer.pdf"
               download
               className="flex items-center gap-2 px-4 py-2 bg-white text-slate-950 rounded-xl text-sm font-medium hover:bg-slate-200 transition-all active:scale-[0.985]"
             >
@@ -218,9 +217,7 @@ export default function Portfolio() {
         <div className="flex flex-col md:flex-row items-center gap-12">
           <div className="flex-1">
             <h1 className="text-6xl md:text-7xl font-semibold tracking-tighter leading-none mb-3">
-              Muhammad
-              <br />
-              Humza
+              Humza Jameel
             </h1>
 
             {/* Location moved below the name */}
@@ -511,8 +508,8 @@ export default function Portfolio() {
       </section>
 
       <footer className="border-t border-slate-800 py-8 text-center text-sm text-slate-500">
-        © {new Date().getFullYear()} Humza Jameel. Built with Next.js &amp;
-        Tailwind.
+        <p>© {new Date().getFullYear()} Humza Jameel • Built with Next.js</p>
+        &amp; Tailwind
       </footer>
     </div>
   );
